@@ -1,0 +1,3 @@
+const greeting = (name) => {
+  const hello = () => `Hello ${name}!`; // ES2015 template literals  return hello();
+}greeting('John') // 'Hello John!'
